@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "negativeenchants",
+	"version": "${version}",
+	"name": "Negative Enchants",
+	"description": "A Minecraft enchantment mod by gittyaulia that negates default enchantments.",
+	"authors": [
+		""
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/gittyaulia/negative-enchants-1.21.4"
+	},
+	"license": "MIT",
+	"icon": "assets/negativeenchants/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.gittyaulia.negativeenchants.NegativeEnchants"
+		],
+		"fabric-datagen": [
+			"com.gittyaulia.negativeenchants.NegativeEnchantsDataGenerator"
+		],
+		"client": [
+			"com.gittyaulia.negativeenchants.NegativeEnchantsClient"
+		]
+	},
+	"mixins": [
+		"negativeenchants.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
