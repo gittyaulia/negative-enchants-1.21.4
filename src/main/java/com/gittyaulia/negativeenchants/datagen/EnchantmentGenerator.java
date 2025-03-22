@@ -15,8 +15,6 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -26,8 +24,6 @@ public class EnchantmentGenerator extends FabricDynamicRegistryProvider {
         super(output, registriesFuture);
         System.out.println("REGISTERING ENCHANTS");
     }
-
-    private static final Logger log = LoggerFactory.getLogger(EnchantmentGenerator.class);
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup registries, Entries entries) {
