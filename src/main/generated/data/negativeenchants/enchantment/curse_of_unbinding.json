@@ -1,0 +1,34 @@
+{
+  "anvil_cost": 5,
+  "description": {
+    "translate": "enchantment.negativeenchants.curse_of_unbinding"
+  },
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "negativeenchants:unequip_effect",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.4,
+            "per_level_above_first": 0.2
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 15
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/equippable",
+  "weight": 10
+}

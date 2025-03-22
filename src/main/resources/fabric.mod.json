@@ -19,7 +19,7 @@
 			"com.gittyaulia.negativeenchants.NegativeEnchants"
 		],
 		"fabric-datagen": [
-			"com.gittyaulia.negativeenchants.NegativeEnchantsDataGenerator"
+			"com.gittyaulia.negativeenchants.datagen.NegativeEnchantsDataGenerator"
 		],
 		"client": [
 			"com.gittyaulia.negativeenchants.NegativeEnchantsClient"
