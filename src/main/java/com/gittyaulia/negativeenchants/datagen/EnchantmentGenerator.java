@@ -47,7 +47,7 @@ public class EnchantmentGenerator extends FabricDynamicRegistryProvider {
                                 )
                         )
                 .addEffect(
-                        EnchantmentEffectComponentTypes.TICK,
+                        EnchantmentEffectComponentTypes.LOCATION_CHANGED,
                         new UnequipEnchantmentEffect(EnchantmentLevelBasedValue.linear(0.4f, 0.2f))
                 )
         );
