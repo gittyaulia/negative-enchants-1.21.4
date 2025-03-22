@@ -22,7 +22,7 @@ public class ModEnchantmentEffects {
     }
 
     private static <T extends EnchantmentEntityEffect> MapCodec<T> register(String id, MapCodec<T> codec) {
-        return Registry.register(Registries.ENCHANTMENT_ENTITY_EFFECT_TYPE, Identifier.of(NegativeEnchants.MOD_ID, id), codec);
+        return Registry.register(Registries.ENCHANTMENT_LOCATION_BASED_EFFECT_TYPE, Identifier.of(NegativeEnchants.MOD_ID, id), codec);
     }
 
     public static void registerModEnchantmentEffects() {

@@ -4,7 +4,7 @@
     "translate": "enchantment.negativeenchants.curse_of_unbinding"
   },
   "effects": {
-    "minecraft:tick": [
+    "minecraft:location_changed": [
       {
         "effect": {
           "type": "negativeenchants:unequip_effect",
